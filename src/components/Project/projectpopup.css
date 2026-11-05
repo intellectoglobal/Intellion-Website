@@ -1,0 +1,669 @@
+.popup-content {
+    width: 90%;
+    height: 90%;
+    max-width: none !important;
+    border-radius: 20px !important;
+    background-color: white;
+    overflow-y: auto;
+    padding: 2rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.project-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    gap: 2rem;
+}
+
+.project-image img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* .project-info-box {
+    flex: 1;
+} */
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.popup-content-inner {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.popup-left {
+    flex: 1;
+}
+
+.popup-right {
+    flex: 2;
+}
+
+.popup-images img {
+    width: 80%;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .popup-overview {
+  margin-bottom: 1.5rem;
+}
+
+.popup-overview h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.popup-overview ul {
+  padding-left: 1.25rem;
+  list-style-type: disc;
+  color: #333;
+  line-height: 1.6;
+  background-color: aqua;
+}
+
+.popup-overview li {
+  margin-bottom: 0.5rem;
+} */
+
+.popup-techstack h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.tech-buttons {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.tech-btn {
+  background-color: #e5f2ff;
+  color: #007acc;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: default;
+  border: 1px solid #228ef3;
+  display: inline-block;      /* ✅ Make width fit content */
+  white-space: nowrap;        /* ✅ Prevent text wrap */
+  max-width: 100%;            /* Optional: keep it responsive */
+}
+
+
+.tech-btn:hover {
+  background-color: #0286f1;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+    width: 90%;
+    height: 90%;
+    max-width: none !important;
+    border-radius: 20px !important;
+    background-color: white;
+    overflow-y: auto;
+    padding: 2rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.project-overview {
+  margin-top: 20px;
+  font-size: 17px;
+  text-align: justify;
+  margin-bottom: 22px;
+  font-weight: 400;
+}
+
+.tech-stack ul {
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.grid-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+.overview-box {
+  border: 2px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 60px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.popup-overview p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #0e0e0e;
+}
+
+
+
+
+.connect-container-constrogen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 30px 60px;
+  color: #fff;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.connect-text-constrogen h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-left: 200px;
+  color: white;
+}
+
+.connect-text-constrogen h2 span {
+  color: #a4ff00; /* Lime green for "Connect" */
+}
+
+.connect-button-constrogen button {
+  background: linear-gradient(to right, #a4ff00 0%, #a4ff00 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: left;
+  border: none;
+  padding: 14px 28px;
+  margin-right: 200px;
+  border-radius: 40px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease, background-position 4.2s ease;
+}
+
+.connect-button-constrogen .plus-icon {
+  background-color: #000;
+  color: #a4ff00;
+  font-size: 1.2rem;
+  margin-left: 23px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.connect-button-constrogen button:hover {
+  transform: scale(1.05);
+  background-position: right;
+}
+
+@media (max-width: 1024px) {
+  .popup-content,
+  .modal-content {
+    width: 90%;
+    height: auto;
+    padding: 2rem;
+    border-radius: 20px !important;
+    overflow-y: auto;
+    background: #fff;
+  }
+
+  .project-section,
+  .popup-content-inner {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .project-image img,
+  .popup-images img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .tech-buttons {
+    display: grid;
+    gap: 0.8rem;
+  }
+
+  .tech-btn {
+    padding: 0.5rem 1rem;
+    font-size: 17px;
+    white-space: nowrap;
+  }
+
+  .image-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .overview-box {
+    max-width: 90%;
+    padding: 20px;
+    margin: 80px auto;
+    border-radius: 12px;
+  }
+
+  .popup-overview p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .connect-container-constrogen {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 180px;
+    margin: 30px auto;
+  }
+
+  .connect-text-constrogen h2 {
+    font-size: 2rem;
+    margin-left: 0;
+  }
+
+  .connect-button-constrogen button {
+    padding: 12px 24px;
+    margin-right: 0;
+  }
+
+  .connect-button-constrogen .plus-icon {
+    font-size: 1.1rem;
+    margin-left: 16px;
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .popup-content,
+  .modal-content {
+    padding: 16px;
+    height: auto;
+  }
+
+  .popup-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .overview-box {
+    padding: 16px;
+    margin: 80px auto;
+    box-shadow: none;
+  }
+
+  .popup-overview p {
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .tech-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tech-btn {
+    font-size: 15px;
+    padding: 6.4px 12.8px;
+    width: 100%;
+  }
+
+  .image-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .grid-img {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .connect-container-constrogen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 12px 140px;
+    text-align: left;
+    background-color: black; /* if needed */
+    color: white;
+  }
+
+  .connect-text-constrogen h2 {
+    font-size: 21px;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .connect-text-constrogen h2 span {
+    color: #ADFF00; /* neon green like image */
+  }
+
+  .connect-button-constrogen button {
+    margin: 0;
+    padding: 12px 24px;
+    font-size: 13px;
+    background-color: #ADFF00;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .connect-button-constrogen button:hover {
+    background-color: #baff1e;
+  }
+
+  .connect-button-constrogen .plus-icon {
+    margin-left: 12px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .popup-content,
+  .modal-content {
+    padding: 16px;
+    height: auto;
+  }
+
+  .popup-title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .overview-box {
+    padding: 16px;
+    margin: 70px auto;
+    box-shadow: none;
+  }
+
+  .popup-overview p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .tech-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tech-btn {
+    font-size: 12px;
+    padding: 6.4px 12.8px;
+    width: 100%;
+  }
+
+  .image-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .grid-img {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .connect-container-constrogen {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .connect-text-constrogen h2 {
+    font-size: 19px;
+    margin: 0 0 16px 0;
+  }
+
+  .connect-button-constrogen button {
+    margin: 0;
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .connect-button-constrogen .plus-icon {
+    margin-left: 12px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .popup-content,
+  .modal-content {
+    padding: 16px;
+    height: auto;
+  }
+
+  .popup-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .overview-box {
+    padding: 16px;
+    margin: 70px auto;
+    box-shadow: none;
+  }
+
+  .popup-overview p {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .tech-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tech-btn {
+    font-size: 10px;
+    padding: 6.4px 12.8px;
+    width: 100%;
+  }
+
+  .image-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .grid-img {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .connect-container-constrogen {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .connect-text-constrogen h2 {
+    font-size: 18px;
+    margin: 0 0 16px 0;
+  }
+
+  .connect-button-constrogen button {
+    margin: 0;
+    padding: 12px 20px;
+    font-size: 12px;
+  }
+
+  .connect-button-constrogen .plus-icon {
+    margin-left: 12px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .popup-content,
+  .modal-content {
+    padding: 16px;
+    height: auto;
+  }
+
+  .popup-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .overview-box {
+    padding: 16px;
+    margin: 70px auto;
+    box-shadow: none;
+  }
+
+  .popup-overview p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .tech-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tech-btn {
+    font-size: 8.8px;
+    padding: 6.4px 12.8px;
+    width: 100%;
+  }
+
+  .image-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .grid-img {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .connect-container-constrogen {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .connect-text-constrogen h2 {
+    font-size: 16px;
+    margin: 0 0 16px 0;
+  }
+
+  .connect-button-constrogen button {
+    margin: 0;
+    padding: 12px 20px;
+    font-size: 10px;
+  }
+
+  .connect-button-constrogen .plus-icon {
+    margin-left: 12px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+  }
+}
+

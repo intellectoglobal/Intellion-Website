@@ -1,0 +1,187 @@
+.connect-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 30px 60px;
+  color: #fff;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.connect-text h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-left: 200px;
+  color: white;
+}
+
+.connect-text h2 span {
+  color: #a4ff00; /* Lime green for "Connect" */
+}
+
+.connect-button button {
+  background: linear-gradient(to right, #a4ff00 0%, #a4ff00 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: left;
+  border: none;
+  padding: 14px 28px;
+  margin-right: 200px;
+  border-radius: 40px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease, background-position 4.2s ease;
+}
+
+.connect-button .plus-icon {
+  background-color: #000;
+  color: #a4ff00;
+  font-size: 1.2rem;
+  margin-left: 23px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect-button button:hover {
+  transform: scale(1.05);
+  background-position: right;
+}
+
+@media (max-width: 1024px) {
+  .connect-text h2 {
+    font-size: 34px;
+    margin-left: 100px;
+  }
+
+  .connect-button button {
+    padding: 12px 24px;
+    font-size: 20px;
+    margin-right: 100px;
+  }
+
+  .connect-button .plus-icon {
+    font-size: 1rem;
+    margin-left: 18px;
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .connect-container {
+    /* flex-direction: column; */
+    padding: 25px 10px;
+    /* text-align: center; */
+  }
+
+  .connect-text h2 {
+    font-size: 1.8rem;
+    margin-left: 80;
+    margin-bottom: 20px;
+  }
+
+  .connect-button button {
+    padding: 12px 24px;
+    font-size: 0.95rem;
+    margin-right: 80px;
+    margin-bottom: 10px;
+  }
+
+  .connect-button .plus-icon {
+    font-size: 0.95rem;
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .connect-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .connect-text h2 {
+    font-size: 22px;
+    margin: 0 0 15px 0;
+  }
+
+  .connect-button button {
+    padding: 12px 20px;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .connect-button .plus-icon {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 375px) {
+  .connect-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .connect-text h2 {
+    font-size: 20px;
+    margin: 0 0 15px 0;
+  }
+
+  .connect-button button {
+    padding: 12px 20px;
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .connect-button .plus-icon {
+    font-size: 19px;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .connect-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .connect-text h2 {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+  }
+
+  .connect-button button {
+    padding: 12px 20px;
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .connect-button .plus-icon {
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+}

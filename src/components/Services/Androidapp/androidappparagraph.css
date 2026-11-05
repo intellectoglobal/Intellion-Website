@@ -1,0 +1,421 @@
+.android-app-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 50px;
+  flex-wrap: wrap;
+}
+
+.android-app-image img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+}
+
+.android-app-content {
+  flex: 1;
+  max-width: 600px;
+  text-align: justify;
+  /* margin-right: 30px; */
+}
+
+.normal-layout {
+  flex-direction: row; /* image left, content right */
+}
+
+.reverse-layout {
+  flex-direction: row-reverse; /* image right, content left */
+}
+.android-app-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.android-app-content p {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.intro-section {
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+#HS_heading {
+    position: relative;
+    justify-self: center;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    z-index: 2;
+    text-align: center;
+}
+
+#HS_headingtext1 {
+    padding-bottom: 0px;
+      font-size: 3.5rem;
+  font-weight: 700;
+  color: rgb(27, 27, 27);
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3);
+    margin-right: 50px;
+}
+
+#HS_headingtext2 {
+    font-size: 23px;
+    color: rgb(24, 24, 24);
+    margin-right: 50px;
+    font-weight: 700;
+    z-index: 2;
+}
+
+@media (max-width: 1024px) {
+  .android-app-container {
+    gap: 30px;
+    padding: 40px 30px;
+  }
+
+  .android-app-image img {
+    width: 400px;
+    border-radius: 10px;
+    height: 380px;
+  }
+
+  .android-app-content {
+    max-width: 100%;
+    padding: 0 20px;
+    margin-right: 10px;
+  }
+
+  .android-app-content h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .android-app-content p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #1d1d1d;
+  }
+
+  .intro-section {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding: 0 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+        #HS_heading {
+    position: relative;
+    justify-self: center;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    z-index: 2;
+    text-align: center;
+}
+
+
+  #HS_headingtext1 {
+    font-size: 2.5rem;
+    margin-right: 20px;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  #HS_headingtext2 {
+    font-size: 1.2rem;
+    margin-right: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .android-app-container {
+    flex-direction: column !important;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+  .android-app-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .android-app-content {
+    max-width: 100%;
+    padding: 0 10px;
+    text-align: justify;
+  }
+
+  .android-app-content h1 {
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .android-app-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1d1d1d;
+    margin-bottom: 12px;
+    word-break: break-word;
+  }
+
+    .intro-section {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 0 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+      #HS_heading {
+    position: relative;
+    justify-self: center;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    z-index: 2;
+    text-align: center;
+}
+
+
+  #HS_headingtext1 {
+    font-size: 1.8rem;
+    margin-right: 0;
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  #HS_headingtext2 {
+    font-size: 1rem;
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .android-app-container {
+    flex-direction: column !important;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+  .android-app-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .android-app-content {
+    max-width: 100%;
+    padding: 0 10px;
+    text-align: justify;
+  }
+
+  .android-app-content h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .android-app-content p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #1d1d1d;
+    margin-bottom: 12px;
+    word-break: break-word;
+  }
+
+  .intro-section {
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+    padding: 0 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+    #HS_heading {
+    position: relative;
+    justify-self: center;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    z-index: 2;
+    text-align: center;
+}
+
+  #HS_headingtext1 {
+    font-size: 1.8rem;
+    margin-right: 0;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  #HS_headingtext2 {
+    font-size: 1rem;
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .android-app-container {
+    flex-direction: column !important;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+  .android-app-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .android-app-content {
+    max-width: 100%;
+    padding: 0 10px;
+    text-align: justify;
+  }
+
+  .android-app-content h1 {
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .android-app-content p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #1d1d1d;
+    margin-bottom: 12px;
+    word-break: break-word;
+  }
+
+    .intro-section {
+    background-size: cover;
+    background-position: center;
+    height: 330px;
+    padding: 0 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #HS_heading {
+    position: relative;
+    justify-self: center;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    z-index: 2;
+    text-align: center;
+}
+
+  #HS_headingtext1 {
+    font-size: 1.8rem;
+    margin-right: 0;
+    margin-top: 90px;
+    text-align: center;
+  }
+
+  #HS_headingtext2 {
+    font-size: 1rem;
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .android-app-container {
+    flex-direction: column !important;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+  .android-app-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .android-app-content {
+    max-width: 100%;
+    padding: 0 10px;
+    text-align: justify;
+  }
+
+  .android-app-content h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .android-app-content p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #1d1d1d;
+    margin-bottom: 12px;
+    word-break: break-word;
+  }
+
+  .intro-section {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 0 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  #HS_heading {
+    position: relative;
+    justify-self: center;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    z-index: 2;
+    text-align: center;
+}
+
+  #HS_headingtext1 {
+    font-size: 1.8rem;
+    margin-right: 0;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  #HS_headingtext2 {
+    font-size: 1rem;
+    margin-right: 0;
+    text-align: center;
+  }
+}

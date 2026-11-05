@@ -1,0 +1,514 @@
+.android-process-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 5%;
+  background-color: #fff;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.android-process-text {
+  flex: 1;
+  z-index: 2;
+  max-width: 600px;
+}
+
+.android-process-text h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.android-process-text strong {
+  font-weight: bold;
+}
+
+.android-process-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.process-card {
+  background-color: #f9f9f9;
+  border-left: 10px solid #b9a18a;
+  padding: 5px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.process-card strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.process-card p {
+  font-size: 1rem;
+  color: #444;
+  margin: 0;
+}
+
+.android-process-image-container {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  overflow: visible; /* ✅ Ensure layers and image overflow are shown */
+}
+
+
+.background-half {
+  background-color: #d7c6b6;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 60%;
+  height: 70%;
+  z-index: 1;
+}
+
+.android-process-image {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  z-index: 6; /* 🟢 Increased to be above all layers */
+  margin-top: 85px;
+  right: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.background-layer {
+  position: absolute;
+  border-radius: 20px;
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+/* Layer stacking with increasing offset */
+.layer1 {
+  background-color: #d7c6b6;
+  top: 70px;
+  right: 77px;
+  z-index: 5;
+}
+.layer2 {
+  background-color: #e2d1c3;
+  top: 55px;
+  right: 55px;
+  z-index: 4;
+}
+.layer3 {
+  background-color: #ebdfd4;
+  top: 40px;
+  right: 40px;
+  z-index: 3;
+}
+.layer4 {
+  background-color: #f2eae2;
+  top: 25px;
+  right: 25px;
+  z-index: 2;
+}
+.layer5 {
+  background-color: #faf0e8;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+
+@media (max-width: 1024px) {
+  .android-process-wrapper {
+    flex-direction: row;
+    padding: 50px 4%;
+    gap: 30px;
+  }
+
+  .android-process-text {
+    max-width: 100%;
+  }
+
+  .android-process-text h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .android-process-cards {
+    gap: 18px;
+  }
+
+  .process-card {
+    padding: 8px 18px;
+    border-left-width: 9px;
+  }
+
+  .process-card strong {
+    font-size: 20px;
+  }
+
+  .process-card p {
+    font-size: 16px
+  }
+
+  .android-process-image-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    min-width: unset;
+  }
+
+  .android-process-image {
+    width: 95%;
+    height: auto;
+    margin-top: 75px;
+    top: 10px;
+    right: 30px;
+  }
+
+  .background-layer {
+    width: 90%;
+    height: 85%;
+  }
+
+  .layer1 { top: 65px; right: 25px; }
+  .layer2 { top: 50px; right: 15px; }
+  .layer3 { top: 35px; right: 5px; }
+  .layer4 { top: 20px; right: -5px; }
+  .layer5 { top: 8px; right: -20px; }
+
+  .background-half {
+    width: 70%;
+    height: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  .android-process-wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 4%;
+    gap: 30px;
+  }
+
+  .android-process-text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .android-process-text h2 {
+    font-size: 23px;
+    margin-bottom: 25px;
+  }
+
+  .android-process-cards {
+    align-items: center;
+  }
+
+  .process-card {
+    padding: 10px 16px;
+    border-left-width: 8px;
+  }
+
+  .process-card strong {
+    font-size: 18px;
+  }
+
+  .process-card p {
+    font-size: 15px;
+  }
+
+  .android-process-image-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-width: unset;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .android-process-image {
+    width: 75%;
+    height: auto;
+    margin-top: 60px;
+    right: -20px;
+    border-radius: 18px;
+  }
+
+  .background-layer {
+    width: 75%;
+    height: 80%;
+    border-radius: 18px;
+  }
+
+  .layer1 {
+    top: 50px;
+    right: 58px;
+  }
+
+  .layer2 {
+    top: 40px;
+    right: 46px;
+  }
+
+  .layer3 {
+    top: 30px;
+    right: 34px;
+  }
+
+  .layer4 {
+    top: 20px;
+    right: 22px;
+  }
+
+  .layer5 {
+    top: 10px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .android-process-wrapper {
+    flex-direction: column;
+    padding: 40px 15px;
+    gap: 25px;
+  }
+
+  .android-process-text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .android-process-text h2 {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+
+  .process-card {
+    padding: 10px 12px;
+    border-left-width: 6px;
+  }
+
+  .process-card strong {
+    font-size: 16px;
+  }
+
+  .process-card p {
+    font-size: 15px;
+  }
+
+  .android-process-image-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: unset;
+    height: auto;
+  }
+
+  .android-process-image {
+    width: 88%;
+    height: auto;
+    margin-top: 55px;
+    right: 13px;
+    border-radius: 16px;
+  }
+
+  .background-layer {
+    width: 90%;
+    height: 75%;
+    border-radius: 16px;
+  }
+
+  .layer1 {
+    top: 45px;
+    right: 24px;
+  }
+
+  .layer2 {
+    top: 35px;
+    right: 17px;
+  }
+
+  .layer3 {
+    top: 25px;
+    right: 10px;
+  }
+
+  .layer4 {
+    top: 15px;
+    right: 5px;
+  }
+
+  .layer5 {
+    top: 5px;
+    right: -3px;
+  }
+}
+
+@media (max-width: 375px) {
+  .android-process-wrapper {
+    flex-direction: column;
+    padding: 40px 15px;
+    gap: 25px;
+  }
+
+  .android-process-text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .android-process-text h2 {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .process-card {
+    padding: 10px 12px;
+    border-left-width: 6px;
+  }
+
+  .process-card strong {
+    font-size: 15px;
+  }
+
+  .process-card p {
+    font-size: 13px;
+  }
+
+  .android-process-image-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: unset;
+    height: auto;
+  }
+
+  .android-process-image {
+    width: 88%;
+    height: auto;
+    margin-top: 55px;
+    right: 12px;
+    border-radius: 16px;
+  }
+
+  .background-layer {
+    width: 90%;
+    height: 75%;
+    border-radius: 16px;
+  }
+
+  .layer1 {
+    top: 45px;
+    right: 18px;
+  }
+
+  .layer2 {
+    top: 35px;
+    right: 12px;
+  }
+
+  .layer3 {
+    top: 25px;
+    right: 7px;
+  }
+
+  .layer4 {
+    top: 15px;
+    right: 2px;
+  }
+
+  .layer5 {
+    top: 5px;
+    right: -3px;
+  }
+}
+
+@media (max-width: 320px) {
+  .android-process-wrapper {
+    flex-direction: column;
+    padding: 40px 15px;
+    gap: 25px;
+  }
+
+  .android-process-text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .android-process-text h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .process-card {
+    padding: 10px 12px;
+    border-left-width: 6px;
+  }
+
+  .process-card strong {
+    font-size: 14px;
+  }
+
+  .process-card p {
+    font-size: 12px;
+  }
+
+  .android-process-image-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: unset;
+    height: auto;
+  }
+
+  .android-process-image {
+    width: 88%;
+    height: auto;
+    margin-top: 55px;
+    right: 12px;
+    border-radius: 16px;
+  }
+
+  .background-layer {
+    width: 90%;
+    height: 75%;
+    border-radius: 16px;
+  }
+
+  .layer1 {
+    top: 45px;
+    right: 18px;
+  }
+
+  .layer2 {
+    top: 35px;
+    right: 12px;
+  }
+
+  .layer3 {
+    top: 25px;
+    right: 7px;
+  }
+
+  .layer4 {
+    top: 15px;
+    right: 2px;
+  }
+
+  .layer5 {
+    top: 5px;
+    right: -3px;
+  }
+}

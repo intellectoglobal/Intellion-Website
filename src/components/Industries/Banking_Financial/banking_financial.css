@@ -1,0 +1,408 @@
+#HS_heading-banking {
+    position: relative;
+    justify-self: center;
+    padding-bottom: 0px;
+    z-index: 2;
+}
+
+#HS_headingtext1-banking {
+    /* font-size: 80px; */
+    padding-bottom: 20px;
+    /* font-weight: 600; */
+      font-size: 3.5rem;
+  font-weight: 700;
+  color: rgb(27, 27, 27);
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3);
+    margin-right: 50px;
+}
+
+#HS_headingtext2-banking {
+    font-size: 23px;
+    color: rgb(24, 24, 24);
+    margin-right: 50px;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.intro-section-banking {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+@media (max-width: 1024px) {
+  .intro-section-banking {
+    height: auto;
+    padding: 190px 15px;
+    background-position: center top;
+    text-align: center;
+  }
+
+  #HS_heading-banking {
+    padding-bottom: 10px;
+  }
+
+  #HS_headingtext1-banking {
+    font-size: 28px; /* smaller for small screens */
+    margin-right: 0;
+    margin-top: 100px;
+    line-height: 1.3;
+  }
+
+  #HS_headingtext2-banking {
+    font-size: 21px;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-section-banking {
+    height: auto;
+    padding: 120px 15px;
+    background-position: center top;
+    text-align: center;
+  }
+
+  #HS_heading-banking {
+    padding-bottom: 10px;
+  }
+
+  #HS_headingtext1-banking {
+    font-size: 25px; /* smaller for small screens */
+    margin-right: 0;
+    margin-top: 100px;
+    line-height: 1.3;
+  }
+
+  #HS_headingtext2-banking {
+    font-size: 18px;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro-section-banking {
+    height: auto;
+    padding: 70px 15px;
+    background-position: center top;
+    text-align: center;
+  }
+
+  #HS_heading-banking {
+    padding-bottom: 10px;
+  }
+
+  #HS_headingtext1-banking {
+    font-size: 23px; /* smaller for small screens */
+    margin-right: 0;
+    line-height: 1.3;
+    margin-top: 100px;
+  }
+
+  #HS_headingtext2-banking {
+    font-size: 17px;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 375px) {
+  .intro-section-banking {
+    height: auto;
+    padding: 50px 15px;
+    background-position: center top;
+    text-align: center;
+  }
+
+  #HS_heading-banking {
+    padding-bottom: 30px;
+  }
+
+  #HS_headingtext1-banking {
+    font-size: 21px; /* smaller for small screens */
+    margin-right: 0;
+    line-height: 1.3;
+    margin-top: 100px;
+  }
+
+  #HS_headingtext2-banking {
+    font-size: 15px;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro-section-banking {
+    height: auto;
+    padding: 40px 15px;
+    background-position: center top;
+    text-align: center;
+  }
+
+  #HS_heading-banking {
+    padding-bottom: 20px;
+  }
+
+  #HS_headingtext1-banking {
+    font-size: 20px; /* smaller for small screens */
+    margin-right: 0;
+    margin-top: 80px;
+    line-height: 1.3;
+  }
+
+  #HS_headingtext2-banking {
+    font-size: 14px;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+
+
+
+
+
+
+
+/* IMAGES AND WITHIN WORDS SLIDE */
+
+
+  .android-app-container-banking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #f0f0f0;
+}
+
+.android-app-background {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.android-app-content-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 1200px;
+  height: 600px;
+  text-align: justify;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.android-app-content-overlay h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.android-app-content-overlay p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #f0f0f0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 1024px) {
+  .android-app-container-banking {
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+
+  .android-app-background {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .android-app-content-overlay {
+    height: auto;
+    padding: 15px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .android-app-content-overlay h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+      color: whitesmoke;
+    text-align: center;
+  }
+
+  .android-app-content-overlay p {
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    text-align: justify;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 768px) {
+  .android-app-container-banking {
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+
+  .android-app-background {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .android-app-content-overlay {
+    height: auto;
+    padding: 15px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .android-app-content-overlay h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+      color: whitesmoke;
+    text-align: center;
+  }
+
+  .android-app-content-overlay p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    text-align: justify;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 425px) {
+  .android-app-container-banking {
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+
+  .android-app-background {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .android-app-content-overlay {
+    height: auto;
+    padding: 15px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .android-app-content-overlay h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+      color: whitesmoke;
+    text-align: center;
+  }
+
+  .android-app-content-overlay p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    text-align: justify;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 375px) {
+  .android-app-container-banking {
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+
+  .android-app-background {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .android-app-content-overlay {
+    height: auto;
+    padding: 15px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .android-app-content-overlay h1 {
+    font-size: 1.4rem;
+      color: whitesmoke;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .android-app-content-overlay p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    text-align: justify;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 320px) {
+  .android-app-container-banking {
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+
+  .android-app-background {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .android-app-content-overlay {
+    height: auto;
+    padding: 15px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .android-app-content-overlay h1 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+      color: whitesmoke;
+    text-align: center;
+  }
+
+  .android-app-content-overlay p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    text-align: justify;
+    word-break: break-word;
+  }
+}

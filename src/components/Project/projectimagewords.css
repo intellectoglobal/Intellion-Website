@@ -1,0 +1,225 @@
+
+  .project-container-project{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+}
+
+.project-background {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  height: 500px;
+  background-image: url('../../assets/projectimages.webp'); /* UPDATE path */
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-content-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 1200px;
+  height: 600px;
+  text-align: justify;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.project-content-overlay h1 {
+  font-size: 2.8rem;
+  margin-top: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.project-content-overlay p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #f0f0f0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 1024px) {
+  .project-container-project {
+    margin-bottom: 10px;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .project-background {
+    height: auto;
+    border-radius: 8px;
+    background-position: top;
+  }
+
+  .project-content-overlay {
+    padding: 16px;
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .project-content-overlay h1 {
+    font-size: 33px;
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .project-content-overlay p {
+    font-size: 20px;
+    line-height: 33px;
+    text-align: justify;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .project-container-project {
+    margin-bottom: 10px;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .project-background {
+    height: auto;
+    border-radius: 8px;
+    background-position: top;
+  }
+
+  .project-content-overlay {
+    padding: 16px;
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .project-content-overlay h1 {
+    font-size: 25px;
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .project-content-overlay p {
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .project-container-project {
+    margin-bottom: 10px;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .project-background {
+    height: auto;
+    border-radius: 8px;
+    background-position: top;
+  }
+
+  .project-content-overlay {
+    padding: 16px;
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .project-content-overlay h1 {
+    font-size: 23px;
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .project-content-overlay p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 375px) {
+  .project-container-project {
+    margin-bottom: 10px;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .project-background {
+    height: auto;
+    border-radius: 8px;
+    background-position: top;
+  }
+
+  .project-content-overlay {
+    padding: 16px;
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .project-content-overlay h1 {
+    font-size: 21px;
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .project-content-overlay p {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 320px) {
+  .project-container-project {
+    margin-bottom: 10px;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .project-background {
+    height: auto;
+    border-radius: 8px;
+    background-position: top;
+  }
+
+  .project-content-overlay {
+    padding: 16px;
+    height: auto;
+    border-radius: 8px;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .project-content-overlay h1 {
+    font-size: 19.2px;
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .project-content-overlay p {
+    font-size: 13.6px;
+    line-height: 22.4px;
+    text-align: justify;
+  }
+}

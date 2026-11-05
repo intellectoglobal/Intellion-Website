@@ -1,0 +1,1195 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+.footer-top {
+  background-color: #f6ebe9;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.footer-top h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.footer-feature {
+  max-width: 220px;
+}
+
+.footer-feature img {
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.footer-feature h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-feature p {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.footer-bottom {
+  background-color: #111;
+  color: white;
+  padding: 3rem 2rem;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 520px;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 150px;
+  margin-top: -360px;
+  margin-bottom: 700px;
+  /* background-color: #09acec; */
+  /* margin: 1rem 0; */
+}
+
+.footer-col h5 {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  margin-right: 130px;
+  letter-spacing: 0.05em;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.footer-col ul li:hover {
+  text-decoration: none;
+  transform: scale(1.03) translateY(-1px);
+  color: #f5f5f5;
+  /* Optional: subtle color change */
+}
+
+/* services */
+.footer-col-services {
+  flex: 1;
+  min-width: 150px;
+  margin-top: -360px;
+  margin-bottom: 750px;
+  margin-left: 150px;
+  /* background-color: #cccccc; */
+}
+
+.footer-col-services h5 {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  margin-right: 150px;
+  letter-spacing: 0.05em;
+}
+
+.footer-col-services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col-services ul li {
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.footer-col-services ul li:hover {
+  text-decoration: none;
+  transform: scale(1.03) translateY(-1px);
+  color: #f5f5f5;
+  /* Optional: subtle color change */
+}
+
+.footer-text {
+  color: #fff;
+  /* Or your existing footer text color */
+  text-decoration: none;
+}
+
+.footer-text:hover {
+  text-decoration: none;
+  color: #ccc;
+  /* Optional: hover effect */
+}
+
+/* follow us */
+
+.footer-col-follow-us {
+  flex: 1;
+  min-width: 150px;
+  margin: 1rem 0;
+}
+
+.footer-col-follow-us h5 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  /* margin-right: 200px; */
+  letter-spacing: 0.05em;
+}
+
+.footer-col-follow-us h4 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  /* margin-right: 200px; */
+  letter-spacing: 0.05em;
+}
+
+.footer-col-follow-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col-follow-usl ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.footer-col-follow-us ul li:hover {
+  text-decoration: none;
+  transform: scale(1.05) translateY(-1px);
+  color: #ffffff;
+  /* Optional: subtle color change */
+
+}
+
+.email_box {
+  /* background-color: yellow; */
+  padding: 8px 30px;
+  border-radius: 20px;
+}
+
+.bullet {
+  margin-right: 0.5rem;
+  color: #ccc;
+  font-size: 0.7rem;
+}
+
+.social-icons-footer {
+  display: flex;
+  /* flex-wrap: grid; */
+  /* background-color: #cccccc; */
+  gap: 16px;
+  margin-left: 50px;
+  margin-bottom: 1rem;
+}
+
+.social-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  font-size: 5px;
+  color: white;
+}
+
+.social-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-item p {
+  font-size: 12px;
+  margin-top: 0.3rem;
+  color: white;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.social-item:hover .social-icon {
+  transform: scale(1.2);
+}
+
+.footer-col input[type="email"] {
+  padding: 0.4rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 180px;
+  transition: box-shadow 0.3s ease;
+}
+
+.footer-col input[type="email"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+}
+
+.footer-bottom-coprights {
+  background-color: #09acec;
+}
+
+
+.copyright-logo {
+  height: 35px;
+  width: auto;
+}
+
+.social-icon-img {
+  width: 32px;
+  height: 32px;
+  margin-top: -200px !important;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.social-icon-img:hover {
+  transform: scale(1.1);
+}
+
+.footer-intro {
+  display: flex;
+  align-items: center;
+  /* vertically center logo and paragraph */
+  justify-content: flex-start;
+  /* align items to left */
+  gap: 20px;
+  /* space between logo and paragraph */
+  color: #ffffff;
+  padding-bottom: 30px;
+  padding: 0 0 20px 0;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 17px;
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+  /* left-align the paragraph */
+}
+
+.intellion_logo {
+  height: 60px;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+
+/* Add to your existing footer.css */
+.contact-info {
+  width: 100%;
+  /* Take full width */
+  padding: 20px;
+  /* background-color: #000; */
+  color: #fff;
+  text-align: left;
+}
+
+.contact-heading {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+  position: relative;
+  padding-bottom: 0px;
+}
+
+.footer-col-contact-us {
+  margin-top: 10px;
+}
+
+.footer-col-contact-us h4 {
+  /* background-color: #09acec; */
+  margin-right: 1000px;
+  margin-bottom: 13px;
+  /* margin-bottom: 1rem; */
+}
+
+.contact-heading:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background: none;
+}
+
+.contact-item {
+  display: flex;
+  margin-bottom: 15px;
+  margin-right: 1000px;
+  align-items: flex-start;
+}
+
+.contact-icon-wrapper {
+  margin-right: 1px;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.contact-icon {
+  width: 100%;
+  height: 100%;
+  fill: #fff;
+}
+
+.contact-details {
+  flex: 1;
+  text-decoration: none;
+}
+
+.contact-text {
+  color: #cccccc;
+  margin: 0px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.contact-link {
+  display: block;
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.contact-address {
+  color: #cccccc;
+  font-style: normal;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.footer-middle {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-middle .industries,
+.footer-middle .services {
+  margin-bottom: 10px;
+}
+
+.footer-middle .copyright-text {
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-top: 10px;
+}
+
+
+.footer-col,
+.footer-col-services,
+.footer-col-follow-us {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 2rem;
+}
+
+.footer-col-contact-us{
+    flex: 1;
+  min-width: 200px;
+  margin-bottom: 2rem;
+  margin-left: 50px;
+      /* margin-top: 0; */
+    /* margin-bottom: 1rem; */
+    text-align: justify;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 13.5px;
+  color: #d1d1d1;
+  background-color: #111;
+  padding: 10px;
+  display: flex;
+  margin-bottom: -48px;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+@media (max-width: 1024px) {
+  /* * {
+    outline: 1px solid red;
+  } */
+
+  .footer-top {
+    padding: 2rem 1rem;
+  }
+
+  .footer-top h2 {
+    font-size: 1.3rem;
+  }
+
+  .footer-icons {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .footer-feature img {
+    height: 50px;
+  }
+
+  .footer-feature h4 {
+    font-size: 1rem;
+  }
+
+  .footer-feature p {
+    font-size: 0.85rem;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footer-col,
+  .footer-col-services,
+  .footer-col-follow-us {
+    margin-top: 0;
+    /* background-color: #569db9; */
+    margin-bottom: 1rem;
+    min-width: 100%;
+  }
+
+  .footer-col {
+    margin-top: 0;
+    /* background-color: #569db9; */
+    margin-bottom: 1rem;
+    min-width: 40%;
+    margin-left: 60px;
+  }
+
+  .footer-col-services {
+    margin-top: -300px;
+    /* background-color: #569db9; */
+    margin-bottom: 1rem;
+    margin-left: 560px !important;
+    min-width: 30%;
+  }
+
+  .footer-col-contact-us h4 {
+    text-align: center;
+    margin-left: 40px;
+    white-space: nowrap;
+    display: flex;
+  }
+
+  .footer-col-services h5,
+  .footer-col-follow-us h5 {
+    font-size: 15px;
+    margin-right: 0;
+  }
+
+  .footer-col h5 {
+    font-size: 15px;
+  }
+
+  .footer-col-services h5 {
+    font-size: 15px;
+    /* margin-left: 0px; */
+    margin-right: 130px;
+  }
+
+  .footer-col-services {
+    margin-left: 0;
+  }
+
+  .footer-text,
+  .contact-text,
+  .contact-link,
+  .contact-address {
+    font-size: 13px;
+  }
+
+  .footer-intro {
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    gap: 10px;
+  }
+
+  .intellion_logo {
+    height: 50px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+  }
+
+  .contact-item {
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .contact-details {
+    flex: 1;
+    margin-top: 0px;
+    text-decoration: none;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+    flex-direction: column;
+    padding: 0px;
+    margin-bottom: 0px;
+    /* background-color: #09acec; */
+  }
+
+  .footer-paragraph-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .social-icons-footer {
+    justify-content: center;
+    margin-left: 370px;
+    margin-top: -200px !important;
+    margin-bottom: 100px !important;
+  }
+
+  .social-icon-img {
+    margin-top: 0 !important;
+  }
+
+  .footer-bottom {
+    padding: 2rem 2rem;
+    background-color: #111;
+  }
+
+  .email_box {
+    padding: 6px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* * {
+    outline: 1px solid red;
+  } */
+
+  .footer-top {
+    padding: 2rem 1rem;
+  }
+
+  .footer-top h2 {
+    font-size: 1.3rem;
+  }
+
+  .footer-icons {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .footer-feature img {
+    height: 50px;
+  }
+
+  .footer-feature h4 {
+    font-size: 1rem;
+  }
+
+  .footer-feature p {
+    font-size: 0.85rem;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footer-col,
+  .footer-col-services,
+  .footer-col-follow-us {
+    margin-top: 0;
+    /* background-color: #569db9; */
+    margin-bottom: 1rem;
+    min-width: 100%;
+  }
+
+  .footer-col {
+    margin-top: 0;
+    /* background-color: #569db9; */
+    margin-bottom: 1rem;
+    min-width: 40%;
+    margin-left: 60px;
+  }
+
+  .footer-col-services {
+    margin-top: -300px;
+    /* background-color: #569db9; */
+    margin-bottom: 1rem;
+    margin-left: 460px !important;
+    min-width: 30%;
+  }
+
+  .footer-col-contact-us h4 {
+    text-align: center;
+    margin-left: 40px;
+    white-space: nowrap;
+    display: flex;
+  }
+
+  .footer-col-services h5,
+  .footer-col-follow-us h5 {
+    font-size: 15px;
+    margin-right: 0;
+  }
+
+  .footer-col h5 {
+    font-size: 15px;
+  }
+
+  .footer-col-services h5 {
+    font-size: 15px;
+    /* margin-left: 0px; */
+    margin-right: 130px;
+  }
+
+  .footer-col-services {
+    margin-left: 0;
+  }
+
+  .footer-text,
+  .contact-text,
+  .contact-link,
+  .contact-address {
+    font-size: 13px;
+  }
+
+  .footer-intro {
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    gap: 10px;
+  }
+
+  .intellion_logo {
+    height: 50px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+  }
+
+  .contact-item {
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .contact-details {
+    flex: 1;
+    margin-top: 0px;
+    text-decoration: none;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+    flex-direction: column;
+    padding: 0px;
+    margin-bottom: 0px;
+    /* background-color: #09acec; */
+  }
+
+  .footer-paragraph-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .social-icons-footer {
+    justify-content: center;
+    margin-left: 370px;
+    margin-top: -200px !important;
+    margin-bottom: 100px !important;
+  }
+
+  .social-icon-img {
+    margin-top: 0 !important;
+  }
+
+  .footer-bottom {
+    padding: 2rem 2rem;
+    background-color: #111;
+  }
+
+  .email_box {
+    padding: 6px 20px;
+  }
+}
+
+@media (max-width: 425px) {
+      /* * {
+    outline: 1px solid red;
+  } */
+
+  .footer-top {
+    padding: 2rem 1rem;
+  }
+
+  .footer-top h2 {
+    font-size: 1.3rem;
+  }
+
+  .footer-icons {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .footer-feature img {
+    height: 50px;
+  }
+
+  .footer-feature h4 {
+    font-size: 1rem;
+  }
+
+  .footer-feature p {
+    font-size: 0.85rem;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footer-col,
+  .footer-col-follow-us {
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 1rem;
+    min-width: 90%;
+  }
+
+        .footer-col-services{
+          margin-top: 0;
+    /* margin-bottom: 1rem; */
+    min-width: 90%;
+    margin-left: 20px !important;
+    }
+
+
+  .footer-col-contact-us {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+    margin-left: 20px;
+    min-width: 100%;
+  }
+
+  .footer-col-contact-us h4 {
+    text-align: center;
+    margin-left: 100px;
+    white-space: nowrap;
+    display: flex;
+  }
+
+  .footer-col h5,
+  .footer-col-services h5,
+  .footer-col-follow-us h5 {
+    font-size: 15px;
+    margin-right: 0;
+  }
+
+  .footer-col-services {
+    margin-left: 0;
+  }
+
+  .footer-text,
+  .contact-text,
+  .contact-link,
+  .contact-address {
+    font-size: 13px;
+  }
+
+  .footer-intro {
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    gap: 10px;
+  }
+
+  .intellion_logo {
+    height: 50px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+  }
+
+  .contact-item {
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .contact-details {
+    flex: 1;
+    margin-top: 0px;
+    text-decoration: none;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+    flex-direction: column;
+    padding: 0px;
+    margin-bottom: 0px;
+    /* background-color: #09acec; */
+  }
+
+  .footer-paragraph-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .social-icons-footer {
+    justify-content: center;
+    margin-left: 0;
+    margin-top: -50px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .social-icon-img {
+    margin-top: 0 !important;
+  }
+
+  .footer-bottom {
+    padding: 2rem 2rem;
+    background-color: #111;
+  }
+
+  .email_box {
+    padding: 6px 20px;
+  }
+}
+
+@media (max-width: 375px) {
+    /* * {
+    outline: 1px solid red;
+  } */
+
+  .footer-top {
+    padding: 2rem 1rem;
+  }
+
+  .footer-top h2 {
+    font-size: 1.3rem;
+  }
+
+  .footer-icons {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .footer-feature img {
+    height: 50px;
+  }
+
+  .footer-feature h4 {
+    font-size: 1rem;
+  }
+
+  .footer-feature p {
+    font-size: 0.85rem;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footer-col,
+  .footer-col-follow-us {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    min-width: 100%;
+    margin-left: 0px;
+  }
+
+      .footer-col-services{
+          margin-top: 0;
+    /* margin-bottom: 1rem; */
+    min-width: 90%;
+    margin-left: 0px !important;
+    }
+
+  .footer-col-contact-us {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+    margin-left: 0px;
+    min-width: 100%;
+  }
+
+  .footer-col-contact-us h4 {
+    text-align: center;
+    margin-left: 100px;
+    white-space: nowrap;
+    display: flex;
+  }
+
+  .footer-col h5,
+  .footer-col-services h5,
+  .footer-col-follow-us h5 {
+    font-size: 15px;
+    margin-right: 0;
+  }
+
+  .footer-col-services {
+    margin-left: 0px;
+  }
+
+  .footer-text,
+  .contact-text,
+  .contact-link,
+  .contact-address {
+    font-size: 13px;
+  }
+
+  .footer-intro {
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    gap: 10px;
+  }
+
+  .intellion_logo {
+    height: 50px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+  }
+
+  .contact-item {
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .contact-details {
+    flex: 1;
+    margin-top: 0px;
+    text-decoration: none;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+    flex-direction: column;
+    padding: 0px;
+    margin-bottom: 0px;
+    /* background-color: #09acec; */
+  }
+
+  .footer-paragraph-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .social-icons-footer {
+    justify-content: center;
+    margin-left: 0;
+    margin-top: -50px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .social-icon-img {
+    margin-top: 0 !important;
+  }
+
+  .footer-bottom {
+    padding: 2rem 2rem;
+    background-color: #111;
+  }
+
+  .email_box {
+    padding: 6px 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer-top {
+    padding: 2rem 1rem;
+  }
+
+  .footer-top h2 {
+    font-size: 1.3rem;
+  }
+
+  .footer-icons {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .footer-feature img {
+    height: 50px;
+  }
+
+  .footer-feature h4 {
+    font-size: 1rem;
+  }
+
+  .footer-feature p {
+    font-size: 0.85rem;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footer-col,
+  .footer-col-services,
+  .footer-col-follow-us {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    min-width: 100%;
+    margin-left: 0px;
+  }
+
+    .footer-col-services{
+          margin-top: 0;
+    /* margin-bottom: 1rem; */
+    min-width: 90%;
+    margin-left: 0px !important;
+    }
+
+  .footer-col-contact-us {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+    min-width: 100%;
+    margin-left: 0px;
+  }
+
+  .footer-col-contact-us h4 {
+    text-align: center;
+    margin-left: 100px;
+    white-space: nowrap;
+    display: flex;
+  }
+
+  .footer-col h5,
+  .footer-col-services h5,
+  .footer-col-follow-us h5 {
+    font-size: 15px;
+    margin-right: 0;
+  }
+
+  .footer-col-services {
+    margin-left: 0;
+  }
+
+  .footer-text,
+  .contact-text,
+  .contact-link,
+  .contact-address {
+    font-size: 13px;
+  }
+
+  .footer-intro {
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    gap: 10px;
+  }
+
+  .intellion_logo {
+    height: 50px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+  }
+
+  .contact-item {
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .contact-details {
+    flex: 1;
+    margin-top: 0px;
+    text-decoration: none;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+    flex-direction: column;
+    padding: 0px;
+    margin-bottom: 0px;
+    /* background-color: #09acec; */
+  }
+
+  .footer-paragraph-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .social-icons-footer {
+    justify-content: center;
+    margin-left: 0;
+    margin-top: -50px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .social-icon-img {
+    margin-top: 0 !important;
+  }
+
+  .footer-bottom {
+    padding: 2rem 2rem;
+    background-color: #111;
+  }
+
+  .email_box {
+    padding: 6px 20px;
+  }
+}
